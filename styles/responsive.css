@@ -1,0 +1,39 @@
+/* bonus section */
+
+/* responsive for mobile  */
+
+@media screen and (max-width:425px) {
+    .banner-container{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        width: 70%;    
+    }
+    .menu-container,
+    .header{
+           display: flex;
+        flex-direction: column;
+    }
+   
+}
+
+/* responsive for tablet */
+
+@media screen and (max-width:769px) {
+    .banner-container{
+        display: flex;
+        margin-top: 100px;
+     
+        
+    }
+    
+    .menu-container,
+    
+    .header{
+        flex-direction: column;
+    }
+   
+}
+    
+
+

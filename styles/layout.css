@@ -3,7 +3,7 @@
 
 body{
     font-family: 'Work Sans', sans-serif;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -68,6 +68,11 @@ height: 40px;
 .btn-nav{
     font-size: 15px;
     padding: 10px;
+    border: 0;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    /* width: 262px;
+    height: 56px; */
 }
 /* nav section ends */
 
@@ -143,7 +148,7 @@ height: 40px;
 }
 /* banner-section ends here */
 
-/* oneline game section starts */
+/* online game section starts */
 .games-container{
     margin-top: 200px;
     text-align: center;
@@ -241,7 +246,7 @@ margin-bottom: 15px;
     right: 100px;
     
 }
-/* download section end here */
+/* download section ends here */
 /* various games section starts here */
 .various-games-container{
     display: grid;
@@ -270,13 +275,14 @@ font-weight: 600;
        color: #FF42A5;
 }
 /* various section ends */
+
 /* footer section starts */
 .footer-container{
     background: #0B0223;
   padding-top: 150px;
    
 height: 636px;
-flex-shrink: 0;
+
 }
 .logo-container-footer-p{
   
