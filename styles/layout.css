@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Work+Sans:wght@500;600;700;800&display=swap');
 
-*{
+
+body{
     font-family: 'Work Sans', sans-serif;
     border: 2px solid red;
     box-sizing: border-box;
@@ -244,9 +245,11 @@ margin-bottom: 15px;
 /* various games section starts here */
 .various-games-container{
     display: grid;
-    grid-template-columns: repeat(5,1fr);
-
+    grid-gap: 20px;
+    grid-template-columns: repeat( 5, 1fr);
+    margin-bottom: 50px;
 }
+
 .single-game{
     display: flex;
     align-items: center;
@@ -266,3 +269,52 @@ font-weight: 600;
        border: 2px solid #FF42A5 ;
        color: #FF42A5;
 }
+/* various section ends */
+/* footer section starts */
+.footer-container{
+    background: #0B0223;
+  padding-top: 150px;
+   
+height: 636px;
+flex-shrink: 0;
+}
+.logo-container-footer-p{
+  
+    color: white;
+}
+.footer-option{
+    display: flex;
+    gap: 30px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.icons-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.icons{
+    color: #FFF;
+  font-size: 48px;
+}
+.icon-red{
+    color: red;
+}
+.icon-blue{
+    color:rgb(63, 63, 164);
+}
+.policy-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.60);
+    gap: 20px;
+    
+}
+.copyright-text{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+}
+/* footer container ends */
