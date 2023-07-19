@@ -190,3 +190,55 @@ margin-bottom: 15px;
     height: 300px;
     width: 250px;
 }
+/* online game section ends here */
+
+/* download section starts */
+.download-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    margin-top: 200px;
+    width: 100%;
+}
+.dowload-text{
+  text-align: center;
+}
+.play-text{
+    color: #0B0223;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+}
+.play{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.download-description{
+    color: #534C64;
+text-align: center;
+font-size: 15px;
+font-weight: 400;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+.download-img img{
+    height: 50%;
+    margin-left: 50px;
+   
+
+}
+
+.img-inside img{
+    position: relative;
+    bottom: 280px;
+    right: 100px;
+    
+}
+/* download section end here */
+/* various games section starts here */
